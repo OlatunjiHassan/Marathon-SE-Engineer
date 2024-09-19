@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 url = "https://icanig.org/ican/students/professional/professional-learning-materials.php#profMaterials"
 # code = re.compile(r"*SKILLS*.pdf")
-folder_location = r"C\:\\Users\\Dell\\Documents\\Everything\ ICAN"
+folder_location = r"C:\webscrape"
 if not os.path.exists(folder_location):
     os.mkdir(folder_location)
 
